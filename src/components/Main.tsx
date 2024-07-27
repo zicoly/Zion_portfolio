@@ -60,6 +60,9 @@ function Main() {
               <XIcon />
             </a>
           </div>
+          <div>
+            <button className="hire-me-btn">Hire me</button>
+          </div>
         </div>
       </div>
     </div>
