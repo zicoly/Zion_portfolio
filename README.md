@@ -2,6 +2,8 @@
 
 Welcome to my portfolio website! Here, you can explore my skills, career history, and personal projects.
 
+![Hero Section](./public/zion-portfolio.PNG)
+
 ## Tech Stack
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -41,22 +43,69 @@ Welcome to my portfolio website! Here, you can explore my skills, career history
 
 I have worked on various personal projects that demonstrate my expertise in web development and software engineering. Each project has provided me with valuable experience and has contributed to my growth as a developer. Here are a few highlights:
 
-### To-Do List Application
-A simple and intuitive to-do list application built with HTML, CSS, and JavaScript. Features include task addition, completion tracking, filtering, and removal.
+### E-BOOK Library
+Developed E-BOOK Library with a vast book collection, engaging animations, and smooth user experience using Open Library API, Swiper, and TailwindCSS.
+- **Tech Stack:** Open Library API, Swiper, TailwindCSS, HTML5, CSS3
+- **Demo:** [E-BOOK Library](https://zicoly-e-book-website.netlify.app)
+- **Source Code:** [GitHub](https://github.com/zicoly/E-BOOK-Library)
 
-### Portfolio Website
-This very portfolio website, created using Next.js and Tailwind CSS, showcases my skills, projects, and professional background.
+### Health Guardian
+Designed, developed, and implemented a robust hospital management software with scroll reveal animation for a hackathon project with [The4Coders], streamlining patient care and administrative tasks.
+- **Tech Stack:** Node.js, TailwindCSS, Next.js, TypeScript, OpenAI
+- **Demo:** [Health Guardian](https://hg-gamma.vercel.app)
 
-### Blogging Platform
-A comprehensive blogging platform developed with React and Node.js, featuring user authentication, post creation, and commenting functionalities.
+### Ecommerce Store
+Explore FauxStore: Your playground for simulated online shopping! Experiment with e-commerce features in this repository. Build, test, and have fun!
+- **Tech Stack:** React, Redux, CSS
+- **Demo:** [Ecommerce Store](https://zicoly.github.io/Lobe-Website)
 
-### E-commerce Website
-An e-commerce platform designed with React and Redux, providing a seamless shopping experience with product listings, a shopping cart, and a checkout process.
+### TO-DO List Application
+Simple To-Do List Application using HTML, CSS, and JavaScript. Features: add todos, mark completion, filter tasks, and remove todos.
+- **Tech Stack:** HTML, CSS, JavaScript
+- **Demo:** [TO-DO List Application](https://zicoly.github.io/To-do-List-Application/)
+- **Source Code:** [GitHub](https://github.com/zicoly/To-do-List-Application)
+
+### Chiquitas-IMS
+Collaborated with my team, [The4Coders], to develop an Inventory Management Software for a client's hair business.
+- **Tech Stack:** React, Node.js, TailwindCSS, TypeScript, Vite
+- **Demo:** [Chiquitas-IMS](https://chiquitas-ims.vercel.app)
+
+### Podia
+Recreating the Podia website to enhance web development skills using HTML, CSS, and JavaScript, focusing on designing.
+- **Tech Stack:** HTML, CSS, JavaScript
+- **Demo:** [Podia](https://zicoly.github.io/Podia/)
+- **Source Code:** [GitHub](https://github.com/zicoly/Podia)
+
+### Lobe Website
+Recreated the Lobe website using HTML, CSS, and JavaScript to practice web development skills. This project showcases layout, styling, and responsiveness.
+- **Tech Stack:** HTML, CSS, JavaScript
+- **Demo:** [Lobe Website](https://zicoly.github.io/Lobe-Website)
+- **Source Code:** [GitHub](https://github.com/zicoly/Lobe-Website)
+
+### A Simple Guessing Game
+Developed an engaging Guessing Game with limited attempts to find the correct number. Enjoy the challenge and test your skills!
+- **Tech Stack:** HTML, CSS, JavaScript
+- **Demo:** [A Simple Guessing Game](https://zicoly.github.io/The-Guessing-Game/)
+- **Source Code:** [GitHub](https://github.com/zicoly/The-Guessing-Game)
 
 ## Contact
 
 Feel free to connect with me on [X](https://twitter.com/Zicoly_) or explore my work on [GitHub](https://github.com/zicoly).
 
----
+## Portfolio Website
 
-<!-- **Designed and built by Omojola Zion with 💜** -->
+Check out my portfolio website, which includes a hero section with a website image, built using 
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+
+✅ Responsive design & mobile-friendly  
+✅ Supports both dark and light modes  
+✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
+
+[Check it out on Vercel](https://zionportfolio.vercel.app/)

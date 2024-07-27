@@ -64,7 +64,7 @@ export const projects = [
     image: mock05,
     description:
       "Collaborated with my team,[ The4Coders ], to develop an Inventory Management Software for a client's hair business.",
-    url: 'https://www.byuh.edu/covid-19-case-management',
+    url: 'https://chiquitas-ims.vercel.app',
     techStack: ['React', 'Node.js', 'TailwindCSS', 'TypeScript', 'Vite'],
   },
   {
