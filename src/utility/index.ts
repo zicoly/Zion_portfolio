@@ -36,8 +36,9 @@ export const projects = [
     image: mock08,
     description:
       'Explore FauxStore: Your playground for simulated online shopping! Experiment with e-commerce features in this repository. Build, test, and have fun!',
-    url: 'https://zicoly.github.io/Lobe-Website',
-    techStack: ['React', 'Redux', 'CSS'],
+    url: 'https://zicoly-ecommerce-site.vercel.app',
+    techStack: ['React','TailwindCSS', 'TypeScript'],
+    sourceUrl: 'https://github.com/zicoly/Ecommerce-site',
   },
   {
     id: uuidv4(),

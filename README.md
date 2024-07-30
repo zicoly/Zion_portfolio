@@ -45,23 +45,36 @@ I have worked on various personal projects that demonstrate my expertise in web 
 
 ### E-BOOK Library
 Developed E-BOOK Library with a vast book collection, engaging animations, and smooth user experience using Open Library API, Swiper, and TailwindCSS.
-- **Tech Stack:** Open Library API, Swiper, TailwindCSS, HTML5, CSS3
+- **Tech Stack:** ![Open Library API](https://img.shields.io/badge/Open%20Library%20API-FFA500?style=for-the-badge&logo=Open%20Library&logoColor=white)
+![Swiper](https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 - **Demo:** [E-BOOK Library](https://zicoly-e-book-website.netlify.app)
 - **Source Code:** [GitHub](https://github.com/zicoly/E-BOOK-Library)
 
 ### Health Guardian
 Designed, developed, and implemented a robust hospital management software with scroll reveal animation for a hackathon project with [The4Coders], streamlining patient care and administrative tasks.
-- **Tech Stack:** Node.js, TailwindCSS, Next.js, TypeScript, OpenAI
+- **Tech Stack:** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
 - **Demo:** [Health Guardian](https://hg-gamma.vercel.app)
 
 ### Ecommerce Store
 Explore FauxStore: Your playground for simulated online shopping! Experiment with e-commerce features in this repository. Build, test, and have fun!
-- **Tech Stack:** React, Redux, CSS
+- **Tech Stack:** Still Editing
 - **Demo:** [Ecommerce Store](https://zicoly.github.io/Lobe-Website)
 
 ### TO-DO List Application
 Simple To-Do List Application using HTML, CSS, and JavaScript. Features: add todos, mark completion, filter tasks, and remove todos.
-- **Tech Stack:** HTML, CSS, JavaScript
+- **Tech Stack:** ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
 - **Demo:** [TO-DO List Application](https://zicoly.github.io/To-do-List-Application/)
 - **Source Code:** [GitHub](https://github.com/zicoly/To-do-List-Application)
 
@@ -72,19 +85,28 @@ Collaborated with my team, [The4Coders], to develop an Inventory Management Soft
 
 ### Podia
 Recreating the Podia website to enhance web development skills using HTML, CSS, and JavaScript, focusing on designing.
-- **Tech Stack:** HTML, CSS, JavaScript
+- **Tech Stack:** ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
 - **Demo:** [Podia](https://zicoly.github.io/Podia/)
 - **Source Code:** [GitHub](https://github.com/zicoly/Podia)
 
 ### Lobe Website
 Recreated the Lobe website using HTML, CSS, and JavaScript to practice web development skills. This project showcases layout, styling, and responsiveness.
-- **Tech Stack:** HTML, CSS, JavaScript
+- **Tech Stack:** ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
 - **Demo:** [Lobe Website](https://zicoly.github.io/Lobe-Website)
 - **Source Code:** [GitHub](https://github.com/zicoly/Lobe-Website)
 
 ### A Simple Guessing Game
 Developed an engaging Guessing Game with limited attempts to find the correct number. Enjoy the challenge and test your skills!
-- **Tech Stack:** HTML, CSS, JavaScript
+- **Tech Stack:** ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
 - **Demo:** [A Simple Guessing Game](https://zicoly.github.io/The-Guessing-Game/)
 - **Source Code:** [GitHub](https://github.com/zicoly/The-Guessing-Game)
 
