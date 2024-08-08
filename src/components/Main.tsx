@@ -61,7 +61,12 @@ function Main() {
             </a>
           </div>
           <div>
-            <button className="hire-me-btn">Hire me</button>
+            <a href="https://docs.google.com/document/d/1mSRagQeLYHMGRUSL3Mk6-mik2tVjd5L3/edit?usp=sharing&ouid=102116388633597087872&rtpof=true&sd=true"
+            target="_blank"
+            rel="noreferrer"
+            >
+              <button className="hire-me-btn">Hire me</button>
+            </a>
           </div>
         </div>
       </div>
