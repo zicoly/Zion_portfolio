@@ -64,10 +64,10 @@ export const projects = [
     name: 'Chiquitas-IMS',
     image: mock05,
     description:
-      "Collaborated with my team,[ The4Coders ], to develop an Inventory Management Software for a client's hair business.",
-    url: 'https://chiquitas-ims.vercel.app',
+      "Collaborated with my team, [The4Coders], to develop an Inventory Management Software for a client's hair business.",
+    message: 'Details available upon request, as this is a client project.',
     techStack: ['React', 'Node.js', 'TailwindCSS', 'TypeScript', 'Vite'],
-  },
+  },  
   {
     id: uuidv4(),
     name: 'Podia',

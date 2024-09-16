@@ -6,7 +6,8 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 interface Project {
   id: string;
   name: string;
-  url: string;
+  url?: string;
+  message?: string;
   description: string;
   techStack: string[];
   image: string;
@@ -35,7 +36,7 @@ const Modal: React.FC<ModalProps> = ({ project, onClose, mode }) => {
             <img src={image} alt={name} />
           </div>
           <div className="modal-details">
-            <div className='modal-description'>
+            <div className="modal-description">
               <h2>{name}</h2>
               <p>{description}</p>
               <div className="flex-chips">
@@ -45,14 +46,18 @@ const Modal: React.FC<ModalProps> = ({ project, onClose, mode }) => {
                 ))}
               </div>
               <div className="modal-buttons">
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="modal-button"
-                >
-                  <FaExternalLinkAlt /> Live
-                </a>
+                {project.url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="modal-button"
+                  >
+                    <FaExternalLinkAlt /> View Project
+                  </a>
+                ) : (
+                  <p className='message'>{project.message}</p>
+                )}
                 {sourceUrl && (
                   <a
                     href={sourceUrl}
@@ -60,7 +65,7 @@ const Modal: React.FC<ModalProps> = ({ project, onClose, mode }) => {
                     rel="noreferrer"
                     className="modal-button"
                   >
-                    <FaGithub /> Source
+                    <FaGithub /> View Source Code
                   </a>
                 )}
               </div>

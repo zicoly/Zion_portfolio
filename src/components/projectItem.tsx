@@ -7,7 +7,8 @@ interface ProjectProps {
   project: {
     id: string;
     name: string;
-    url: string;
+    url?: string;
+    message?: string;
     description: string;
     techStack: string[];
     image: string;
