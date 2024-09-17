@@ -51,6 +51,13 @@
       background-color: #4d78a7;
     }
   }
+
+  @media (max-width: 780px) {
+    .modal-button {
+      font-size: 10px;
+      text-wrap: nowrap;
+    }
+  }
 }
 
 .modal-content {
@@ -62,6 +69,13 @@
   height: 400px;
   position: relative;
   display: flex;
+}
+
+@media (max-width: 780px) {
+  .modal-content {
+    height: auto;
+    width: auto;
+  }
 }
 
 .modal-body {
@@ -164,10 +178,10 @@
 }
 
 .message {
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 600;
   box-shadow: 0px 1px 4px 0px #4299e1;
-  padding: 0.7rem;
-  margin: 1rem 0;
-  border-radius: 0.5rem;
+  padding: 11.2px;
+  margin: 16px 0;
+  border-radius: 8px;
 }
