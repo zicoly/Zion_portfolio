@@ -40,7 +40,7 @@ function Main() {
           </div>
           <div className="name-container">
             <div className="greeting">
-              Hi! {''}
+              Hi! {""}
               <span className="waving-hand" role="img" aria-label="waving hand">
                 👋
               </span>
@@ -61,9 +61,10 @@ function Main() {
             </a>
           </div>
           <div>
-            <a href="https://docs.google.com/document/d/1mSRagQeLYHMGRUSL3Mk6-mik2tVjd5L3/edit?usp=sharing&ouid=102116388633597087872&rtpof=true&sd=true"
-            target="_blank"
-            rel="noreferrer"
+            <a
+              href="https://1drv.ms/w/c/ee7eb44f0b384dd8/EchUGqE9ztRNkZWXTcb4v7kBL0-y97sq0SqR9bUZbQoTcA?e=LukiS1"
+              target="_blank"
+              rel="noreferrer"
             >
               <button className="hire-me-btn">Hire me</button>
             </a>
