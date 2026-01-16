@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import XIcon from '@mui/icons-material/X';
+import { LinkedIn } from '@mui/icons-material';
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -23,7 +24,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="https://i.imgur.com/MK0VoxV.jpeg" alt="Avatar" />
+          <img src="/profile.jpeg" alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">
@@ -36,6 +37,13 @@ function Main() {
             </a>
             <a href="https://x.com/Zicoly_" target="_blank" rel="noreferrer">
               <XIcon />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/zion-omojola"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedIn />
             </a>
           </div>
           <div className="name-container">
@@ -58,6 +66,13 @@ function Main() {
             </a>
             <a href="https://x.com/Zicoly_" target="_blank" rel="noreferrer">
               <XIcon />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/zion-omojola"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedIn />
             </a>
           </div>
           <div>
