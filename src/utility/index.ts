@@ -1,110 +1,170 @@
 import { v4 as uuidv4 } from 'uuid';
-// import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
+
 import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
 import mock05 from '../assets/images/mock05.png';
-// import mock06 from '../assets/images/mock06.png';
 import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
 
+import mock11 from '../assets/images/mock11.png';
+import mock12 from '../assets/images/mock12.png';
+import mock13 from '../assets/images/mock13.png';
+
 export const projects = [
   {
     id: uuidv4(),
-    name: "E-BOOK Library",
-    image: mock10,
+    name: "Onasis Links — Corporate Website",
+    image: mock11,
     description:
-      "Developed E-BOOK Library with vast book collection, engaging animations, and smooth user experience using Open Library API, Swiper, and TailwindCSS.",
-    url: "https://zicoly-e-book-website.netlify.app",
-    techStack: ["Open Library API", "Swiper", "TailwindCSS", "HTML5", "CSS3"],
-    sourceUrl: "https://github.com/zicoly/E-BOOK-Library",
+      "Developed a responsive corporate website for Onasis Links Resources Limited, showcasing the company's services, products, and business information through a modern and professional digital experience.",
+    url: "https://onasislinks.vercel.app",
+    techStack: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Vite",
+      "REST APIs",
+    ],
   },
+
+  {
+    id: uuidv4(),
+    name: "Onasis Operations Dashboard",
+    image: mock12,
+    description:
+      "Built a full-stack B2B operations platform that centralizes task management, staff coordination, customer follow-up, quotations, newsletters, notifications, and business workflows.",
+    message:
+      "Internal company project. Selected features and screenshots are available for demonstration.",
+    techStack: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Zustand",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Supabase",
+      "REST APIs",
+      "Resend",
+    ],
+  },
+
+  {
+    id: uuidv4(),
+    name: "GloroQ — Esports Tournament Platform",
+    image: mock13,
+    description:
+      "Built a Next.js esports and gaming tournament platform featuring tournament creation, game categories, tournament hubs, communities, channels, tickets, two-way chat, polling, and authenticated user workflows.",
+      url: "https://gloroq.com",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Zustand",
+      "React Hook Form",
+      "Zod",
+      "REST APIs",
+      "Authentication",
+    ],
+  },
+
   {
     id: uuidv4(),
     name: "Health Guardian",
     image: mock09,
     description:
-      "Designed, developed, and implemented a robust hospital management software with scroll reveal animation for a hackathon project with [ The4Coders ], streamlining patient care and administrative tasks.",
+      "Designed and developed a hospital management application for a hackathon, providing interfaces for healthcare and administrative workflows while integrating backend services and AI-powered functionality.",
     url: "https://hg-gamma.vercel.app",
-    techStack: ["Node.js", "TailwindCSS", "Next.js", "TypeScript", "OpenAI"],
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Tailwind CSS",
+      "OpenAI",
+    ],
   },
+
   {
     id: uuidv4(),
-    name: "Ecommerce Store",
-    image: mock08,
-    description:
-      "Explore FauxStore: Your playground for simulated online shopping! Experiment with e-commerce features in this repository. Build, test, and have fun!",
-    url: "https://zicoly-ecommerce-site.vercel.app",
-    techStack: ["React", "TailwindCSS", "TypeScript"],
-    sourceUrl: "https://github.com/zicoly/Ecommerce-site",
-  },
-  {
-    id: uuidv4(),
-    name: "TO-DO List Application",
-    image: mock07,
-    description:
-      "Simple To-Do List Application using HTML, CSS, and JavaScript. Features: add todos, mark completion, filter tasks, and remove todos.",
-    url: "https://zicoly.github.io/To-do-List-Application/",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    sourceUrl: "https://github.com/zicoly/To-do-List-Application",
-  },
-  // {
-  //   id: uuidv4(),
-  //   name: 'WeManage: Real Estate Asset Management',
-  //   image: mock06,
-  //   description:
-  //     'This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.',
-  //   url: 'http://www.wemanage.jp/',
-  //   techStack: ['Ruby on Rails', 'JavaScript'],
-  // },
-  {
-    id: uuidv4(),
-    name: "Chiquitas-IMS",
+    name: "Chiquitas IMS",
     image: mock05,
     description:
-      "Collaborated with my team, [The4Coders], to develop an Inventory Management Software for a client's hair business.",
-    message: "Details available upon request, as this is a client project.",
-    techStack: ["React", "Node.js", "TailwindCSS", "TypeScript", "Vite"],
+      "Collaborated with a development team to build an inventory management system for a hair and wig business, replacing manual processes with a centralized digital solution for inventory, orders, and customer management.",
+    message:
+      "Details available upon request, as this is a client project.",
+    techStack: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Tailwind CSS",
+      "Vite",
+    ],
   },
+
   {
     id: uuidv4(),
     name: "QR-PAY",
     image: mock04,
     description:
-      "A dynamic payment system leveraging QR code technology to simplify transactions. Features include account detail extraction from QR codes, a payment modal, and a streamlined user interface for efficient navigation.",
+      "Developed a QR-based payment application with account-detail extraction, payment workflows, and a streamlined transaction interface connected to backend services.",
     url: "https://qr-pay-zeta.vercel.app/home",
-    techStack: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+    techStack: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB",
+    ],
     sourceUrl: "https://github.com/zicoly/QR-PAY",
   },
+
+  {
+    id: uuidv4(),
+    name: "E-BOOK Library",
+    image: mock10,
+    description:
+      "Developed an interactive digital library integrating the Open Library API with real-time search, filtering, animations, and a responsive user interface for discovering books.",
+    url: "https://zicoly-e-book-website.netlify.app",
+    techStack: [
+      "React",
+      "Open Library API",
+      "Swiper",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS3",
+    ],
+    sourceUrl: "https://github.com/zicoly/E-BOOK-Library",
+  },
+
   {
     id: uuidv4(),
     name: "Visioneers Elementary School",
     image: mock03,
     description:
-      "A responsive and user-friendly website designed for Visioneers Elementary School, highlighting school programs, admissions, and contact details. Built to ensure smooth navigation and accessibility for diverse audiences.",
+      "Developed a responsive school website presenting programs, admissions, and contact information with a focus on accessibility, usability, and smooth navigation.",
     url: "https://visioneers-school.vercel.app/",
-    techStack: ["React", "CSS", "Vite"],
-    sourceUrl: "https://github.com/zicoly/visioneers-elementary-school",
+    techStack: [
+      "React",
+      "CSS",
+      "Vite",
+    ],
+    sourceUrl:
+      "https://github.com/zicoly/visioneers-elementary-school",
   },
+
   {
     id: uuidv4(),
-    name: "A Simple Guessing Game",
-    image: mock02,
+    name: "Ecommerce Store",
+    image: mock08,
     description:
-      "Developed an engaging Guessing Game with limited attempts to find the correct number. Enjoy the challenge and test your skills!",
-    url: "https://zicoly.github.io/The-Guessing-Game/",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    sourceUrl: "https://github.com/zicoly/The-Guessing-Game",
+      "Built a responsive e-commerce interface demonstrating product browsing, shopping workflows, reusable components, and modern frontend development practices.",
+    url: "https://zicoly-ecommerce-site.vercel.app",
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+    ],
+    sourceUrl:
+      "https://github.com/zicoly/Ecommerce-site",
   },
-  // {
-  //   id: uuidv4(),
-  //   name: 'Submeowrine',
-  //   image: mock01,
-  //   description:
-  //     'Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.',
-  //   url: 'https://github.com/yujisatojr/submeowrine',
-  //   techStack: ['Java', 'Android Studio'],
-  // },
 ];

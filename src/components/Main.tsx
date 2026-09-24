@@ -55,7 +55,7 @@ function Main() {
             </div>
             <h1 className="name-animation">{displayName}</h1>
           </div>
-          <p>Software Developer</p>
+          <p>Software Engineer | Full-Stack Developer</p>
           <div className="mobile_social_icons">
             <a
               href="https://github.com/zicoly"
@@ -77,11 +77,10 @@ function Main() {
           </div>
           <div>
             <a
-              href="https://1drv.ms/w/c/ee7eb44f0b384dd8/EchUGqE9ztRNkZWXTcb4v7kBL0-y97sq0SqR9bUZbQoTcA?e=LukiS1"
-              target="_blank"
-              rel="noreferrer"
+              href="/Zion_Omojola_CV.pdf"
+  download="Zion_Omojola_CV.pdf"
             >
-              <button className="hire-me-btn">Hire me</button>
+              <button className="hire-me-btn">Download CV</button>
             </a>
           </div>
         </div>

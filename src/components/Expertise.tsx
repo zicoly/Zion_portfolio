@@ -6,21 +6,26 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "Next Js",
+    "React.js",
+    "Next.js",
     "TypeScript",
     "JavaScript",
     "HTML5",
     "CSS3",
-    "SASS",
     "Tailwind CSS",
-    "Java",
+    "SASS",
+    "React Native",
 ];
 
 const labelsSecond = [
     "Git",
     "GitHub",
-    "VSCode",
+    "Vite",
+    "Zustand",
+    "React Hook Form",
+    "Zod",
+    "API Integration",
+    "Authentication"
 ];
 
 function Expertise() {
@@ -32,7 +37,10 @@ function Expertise() {
                     <div className="skill">
                         <FontAwesomeIcon icon={faReact} size="3x"/>
                         <h3>Front-End Development</h3>
-                        <p>I specialize in creating dynamic and responsive web applications using modern front-end technologies like React and Next.js.</p>
+                        <p>
+    I build responsive and scalable web applications using React.js,
+    Next.js, TypeScript, and modern frontend technologies.
+</p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsFirst.map((label, index) => (
@@ -43,8 +51,11 @@ function Expertise() {
 
                     <div className="skill">
                         <FontAwesomeIcon icon={faGitAlt} size="3x"/>
-                        <h3>Development Tools</h3>
-                        <p>Utilizing robust development tools to enhance productivity and ensure seamless collaboration.</p>
+                        <h3>Development & Architecture</h3>
+                        <p>
+    I work with modern development tools, REST APIs, and backend
+    technologies to connect frontend applications with real data and services.
+</p>
                         <div className="flex-chips">
                             <span className="chip-title">Tools:</span>
                             {labelsSecond.map((label, index) => (
@@ -55,13 +66,15 @@ function Expertise() {
 
                     <div className="skill">
                         <FontAwesomeIcon icon={faJsSquare} size="3x"/>
-                        <h3>JavaScript & Beyond</h3>
-                        <p>Proficient in JavaScript and its frameworks, enabling the creation of interactive and high-performance web applications.</p>
+                        <h3>Backend & APIs</h3>
+                        <p>
+    I design and implement robust backend solutions and RESTful APIs to support scalable and maintainable web applications.
+</p>
                         <div className="flex-chips">
                             <span className="chip-title">Languages:</span>
-                            {labelsFirst.filter(label => label === "JavaScript" || label === "TypeScript" || label === "Java").map((label, index) => (
-                                <Chip key={index} className='chip' label={label} />
-                            ))}
+                            {["Node.js", "Express.js", "MongoDB", "PostgreSQL"].map((label, index) => (
+    <Chip key={index} className="chip" label={label} />
+))}
                         </div>
                     </div>
                 </div>
